@@ -1,0 +1,167 @@
+name: padelmatchv2
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  build_runner:
+  json_serializable:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  shared_preferences:
+  fluro:
+  http:
+  json_annotation:
+  shimmer:
+  url_launcher:
+  image_picker: "^0.4.5"
+  image_cropper: ^0.0.4
+  datetime_picker_formfield:
+  dio:
+  path_provider:
+  redux:
+  flutter_redux:
+  redux_thunk:
+  progress_dialog:
+  cached_network_image:
+  firebase_messaging: ^2.0.0
+  flutter_launcher_icons:
+  pull_to_refresh: ^1.5.4
+  connectivity:
+  launch_review:
+  flutter_i18n: ^0.8.0
+  country_icons:
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+
+dependency_overrides:
+  image: 2.0.7
+
+flutter_icons:
+  android: "launcher_icon" 
+  ios: false
+  image_path: "assets/img/icon.png"
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+   - assets/img/rahi.jpg
+   - assets/img/aaa.jpg
+   - assets/img/b.jpg
+   - assets/img/aa.jpg
+   - assets/img/bcg1.jpg
+   - assets/img/tir.png
+   - assets/img/logo.png
+   - assets/img/adidas.png
+   - assets/img/asics.png
+   - assets/img/head.png
+   - assets/img/d.jpg
+   - assets/img/c.jpg
+   - assets/img/bb.jpg
+   - assets/img/t.jpg
+   - assets/img/t2.jpg
+   - assets/img/t3.jpg
+   - assets/img/t4.jpg
+   - assets/img/g.png
+   - assets/img/g2.png
+   - assets/img/g3.png
+   - assets/img/g4.png
+   - assets/img/tn.png
+   - assets/img/bg.jpg
+   - assets/img/x.jpg
+   - assets/img/xx.jpg
+   - assets/img/bg2.jpg
+   - assets/img/bg3.jpg
+   - assets/img/add.jpg
+   - assets/img/PLUS.jpg
+   - assets/img/plus2.jpg
+   - assets/img/plus3.png
+   - assets/img/sadek-plus.png
+   - assets/img/placeHolher.png
+   - assets/img/1spt.jpg
+   - assets/img/2spt.jpg
+   - assets/img/3spt.jpg
+   - assets/img/4spt.jpg
+   - assets/img/5spt.jpg
+   - assets/img/6spt.jpg
+   - assets/img/icon.png
+   - assets/img/en.png
+   - assets/img/sw.png
+   - assets/img/no_internet.png
+   - assets/img/update.png
+   - assets/img/result24px.png
+   - assets/img/up.png
+   - assets/img/down.jpg
+   - assets/img/down.png
+   - assets/i18n/
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: BebasNeue
+      fonts:
+        - asset: fonts/BebasNeue-Bold.ttf
+          weight: 900
+        - asset: fonts/BebasNeue-Book.ttf
+        - asset: fonts/BebasNeue-Light.ttf
+          weight: 300
+        - asset: fonts/BebasNeue-Regular.ttf
+          weight: 400
+        - asset: fonts/BebasNeue-Thin.ttf
+          weight: 200
+          style: italic
+    - family: Lato
+      fonts:
+        - asset: fonts/Lato-Black.ttf
+          weight: 900
+        - asset: fonts/Lato-Bold.ttf
+          weight: 700
+        - asset: fonts/Lato-Hairline.ttf
+        - asset: fonts/Lato-Light.ttf
+          weight: 300
+        - asset: fonts/Lato-Regular.ttf
+          weight: 400
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
